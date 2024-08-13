@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Novel BookStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <nav>
+        <h1>M S D Bookstore</h1>
+        </nav>
+    </div>
+
+        <div class="container">
+            <div class="box">
+             <h2>Ponniyin Selvan</h2>
+             <h3>Kalki Krishnamoorthy</h3>
+             <p>Ponniyin Selvan is regarded as one of the greatest novels of Tamil literature. The fan-following for the series, which was published weekly in Kalki, was such that it elevated the magazine circulation to a figure of 75,000 copies – a vast readership in a newly independent India.The book continued to be admired in the modern era, developing a cult following and fanbase among people of all generations. Ponniyin Selvan has garnered critical acclaim for its tightly woven plot, vivid narration, witty dialogue, and portrayal of the intrigues and power struggle of the Chola empire in the 10th-century.</p>
+             <button onclick="del(event)">Delete</button>
+            </div>
+        </div>
+
+        <button class="add" id="addbut">+</button>
+
+    <div class="addpopup"></div>
+        <div class="contain">
+            <h4>Add Book</h4>
+            <input type="text" placeholder="Book Title" id="addbooktitle">
+            <input type="text" placeholder="Book Author" id="addbookauthor">
+            <textarea id="addshort">Short Description..</textarea>
+            <button id="add">ADD</button>
+            <button id="cancel">CANCEL</button>
+        </div>
+
+    <!-- <button class="add" id="addbut">+</button> -->
+
+    <script src="node.js"></script>
+</body>
+</html>
